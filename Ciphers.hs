@@ -1,4 +1,4 @@
--- Caesar.hs
+-- Ciphers.hs
 -- Functional programming in Haskell reading
 -- A module to encode and break Caesar ciphers
 
