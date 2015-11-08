@@ -10,3 +10,7 @@ This first lab required the user to write a set of Caesar and Vigener cipher fun
 `isValid` defines a function that takes an integer and returns boolean true/false if it validates as a credit card number.
 
 `numValid creditCards` runs a series of possible credit cards against the `isValid` function and returns the number that satisfy its check.
+
+## Lab 03 - Higher Order Functions & Function Composition
+
+A series of problems involving higher order functions and function composition in Haskell.
