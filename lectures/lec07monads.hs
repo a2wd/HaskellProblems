@@ -1,6 +1,6 @@
 module HuttonsMonads where
 
-import Prelude hiding (Maybe, Nothing, Just, (>>=), Monad)
+import Prelude hiding (Maybe, Nothing, Just, (>>=))
 
 --We can abstract both inc and square to map
 inc = map (+1)
@@ -116,7 +116,7 @@ eval (Op x y z) = do n <- eval x
 --}
 
 
---Declaring a monad typeclass
+{--Declaring a monad typeclass
 class Monad m where
   return :: a -> m a
   (>>=) :: m a -> (a -> m b) -> m b
@@ -128,3 +128,7 @@ instance Monad where
   -- (>>=) :: Maybe a -> (a -> Maybe b) -> Maybe b
   Nothing >>= _ = Nothing
   (Just x) >>= f = f x
+--}
+
+--Sate data constructor
+--data ST a = S (State -> (a, State))
