@@ -14,3 +14,7 @@ This first lab required the user to write a set of Caesar and Vigener cipher fun
 ## Lab 03 - Higher Order Functions & Function Composition
 
 A series of problems involving higher order functions and function composition in Haskell.
+
+## Lab 04 - Recursive Functions
+
+A series of problems which could be implemented in many ways but are intended to illustrate the simplicity, ease and clarity of a recursive programming style.
